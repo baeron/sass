@@ -1,0 +1,36 @@
+@import "../../../_variables.scss";
+
+/*button-size*/
+/*
+@mixin button-size($font-size) {
+  padding: $font-size $font-size;
+  font-size: $font-size;
+  line-height: $font-size;
+  border-radius: $font-size;
+}
+*/
+.btn-esm {
+  padding: $basic-font-size/5 $basic-font-size/2.5 $basic-font-size/5 $basic-font-size/2.5;
+  font-size: $basic-font-size*0.6;
+  line-height: $basic-font-size*1.5;
+  border-radius: $basic-font-size*0.1;
+}
+.btn-sm {
+  padding: $basic-font-size/4 $basic-font-size/2 $basic-font-size/4 $basic-font-size/2;
+  font-size: $basic-font-size*0.875;
+  line-height: $basic-font-size*1.5;
+  border-radius: $basic-font-size*0.2;
+}
+.btn-md {
+  padding: $basic-font-size/3 $basic-font-size/1.5 $basic-font-size/3 $basic-font-size/1.5;
+  font-size: $basic-font-size*1;
+  line-height: $basic-font-size*1.5;
+  border-radius: $basic-font-size*0.25;
+    
+}
+.btn-lg {
+  padding: $basic-font-size/2 $basic-font-size/1 $basic-font-size/2 $basic-font-size/1;
+  font-size: $basic-font-size*1.25;
+  line-height: $basic-font-size*1.5;
+  border-radius: $basic-font-size*0.3;
+}

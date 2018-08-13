@@ -1,0 +1,36 @@
+@import "../../../_colors.scss";
+
+/*button-style*/
+@mixin button-color($color, $bg-color, $br-color) {
+  color: $color;
+  background-color: $bg-color;
+  border-color: $br-color;
+}
+
+.btn-primary {
+   @include button-color($white-color, $light-blue, $light-blue);
+    &:hover {
+        background-color: $blue;
+    }
+}
+
+.btn-success {
+    @include button-color($white-color, $light-green, $light-green);
+    &:hover {
+        background-color: $green;
+    }
+}
+
+.btn-danger {
+    @include button-color($white-color, $light-red, $light-red);
+    &:hover {
+        background-color: $red;
+    }
+}
+
+.btn-warning {
+    @include button-color($white-color, $yellow, $yellow);
+    &:hover {
+        background-color: $dark-yellow;
+    }
+}

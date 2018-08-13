@@ -1,0 +1,33 @@
+/*fonts*/
+$basic-font-family: "Roboto", "Arial", sans-serif;
+$basic-font-size: 1rem;
+
+/*display propertys*/
+$display-block: block;
+$display-inline: inline;
+$display-inline-block: inline-block;
+$display-none: none;
+$display-flex: flex;
+
+
+/*flex*/
+  //flex-direction
+    $flex-direction-row: row;
+    $flex-direction-row-reverse: row-reverse;
+    $flex-direction-column: column;
+    $flex-direction-column-reverse: column-reverse;
+
+/*text-decoration*/
+$text-decoration-none: none;
+
+/*text-align*/
+$text-align-center: center;
+$text-align-justify: justify;
+$text-align-left: left;
+$text-align-right: right;
+
+/*vertical-align*/
+$vertical-align-baseline: baseline;
+$vertical-align-bottom: bottom;
+$vertical-align-middle: middle;
+$vertical-align-top: top;

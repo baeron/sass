@@ -1,0 +1,14 @@
+@import "../../../_variables.scss";
+@import "../../../_colors.scss";
+
+.flex-row {
+  display: $display-flex;
+  flex-direction: $flex-direction-row;
+  background-color: $inherit-bg-colore;
+}
+
+.flex-col {
+  display: $display-flex;
+  flex-direction: $flex-direction-column;
+  background-color: $inherit-bg-colore;
+}

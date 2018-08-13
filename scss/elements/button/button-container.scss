@@ -1,0 +1,11 @@
+@import "../../../_variables.scss";
+@import "../../../_font.scss";
+
+/*base style for button*/
+.btn {
+  display: $display-inline-block;
+  text-decoration: $text-decoration-none;
+  text-align: $text-align-center;
+  vertical-align: $vertical-align-middle;
+  font-family: $roboto-font;
+}

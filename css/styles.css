@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i");
+/*fonts*/
+/*display propertys*/
+/*flex*/
+/*text-decoration*/
+/*text-align*/
+/*vertical-align*/
+/*MARGIN*/
+/*$spacer = 1rem == $basic-font-size: 1rem;*/
+/*fonts*/
+/*display propertys*/
+/*flex*/
+/*text-decoration*/
+/*text-align*/
+/*vertical-align*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i");
+.m-0 {
+  margin: 0; }
+
+.m-1 {
+  margin: 0.25rem; }
+
+.m-2 {
+  margin: 0.5rem; }
+
+.m-3 {
+  margin: 1rem; }
+
+.m-4 {
+  margin: 1.5rem; }
+
+.m-5 {
+  margin: 3rem; }
+
+.m-auto {
+  margin: auto; }
+
+/*CONTAINER*/
+/*fonts*/
+/*display propertys*/
+/*flex*/
+/*text-decoration*/
+/*text-align*/
+/*vertical-align*/
+/*main colors*/
+/**/
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  background-color: inherit; }
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  background-color: inherit; }
+
+/*BUTTON*/
+/*fonts*/
+/*display propertys*/
+/*flex*/
+/*text-decoration*/
+/*text-align*/
+/*vertical-align*/
+/*base style for button*/
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Roboto", serif; }
+
+/*fonts*/
+/*display propertys*/
+/*flex*/
+/*text-decoration*/
+/*text-align*/
+/*vertical-align*/
+/*button-size*/
+/*
+@mixin button-size($font-size) {
+  padding: $font-size $font-size;
+  font-size: $font-size;
+  line-height: $font-size;
+  border-radius: $font-size;
+}
+*/
+.btn-esm {
+  padding: 0.2rem 0.4rem 0.2rem 0.4rem;
+  font-size: 0.6rem;
+  line-height: 1.5rem;
+  border-radius: 0.1rem; }
+
+.btn-sm {
+  padding: 0.25rem 0.5rem 0.25rem 0.5rem;
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  border-radius: 0.2rem; }
+
+.btn-md {
+  padding: 0.33333rem 0.66667rem 0.33333rem 0.66667rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  border-radius: 0.25rem; }
+
+.btn-lg {
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  border-radius: 0.3rem; }
+
+/*main colors*/
+/**/
+/*button-style*/
+.btn-primary {
+  color: #fff;
+  background-color: #007bff;
+  border-color: #007bff; }
+  .btn-primary:hover {
+    background-color: #0069d9; }
+
+.btn-success {
+  color: #fff;
+  background-color: #28a745;
+  border-color: #28a745; }
+  .btn-success:hover {
+    background-color: #218838; }
+
+.btn-danger {
+  color: #fff;
+  background-color: #dc3545;
+  border-color: #dc3545; }
+  .btn-danger:hover {
+    background-color: #bd2130; }
+
+.btn-warning {
+  color: #fff;
+  background-color: #ffc107;
+  border-color: #ffc107; }
+  .btn-warning:hover {
+    background-color: #d39e00; }
